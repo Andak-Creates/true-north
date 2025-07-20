@@ -70,7 +70,7 @@ const HeroSection = () => {
       </div>
 
       {/* Detail Cards */}
-      <div className="flex w-[85%] h-[250px] md:h-[280px] md:w-[70%] justify-between  mt-[25px] md:mt-[0]">
+      <div className="flex w-[85%] h-[200px] md:h-[280px] md:w-[70%] justify-between  mt-[25px] md:mt-[0]">
         {/* Left cards */}
         <div
           className="flex flex-col  justify-between"

@@ -46,7 +46,7 @@ const Contact = () => {
 
               <div>
                 <h3 className="text-[18px] font-semibold">Call Us!</h3>
-                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[16px] ">
+                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[12px] ">
                   <p>+1 (555) 123-4567</p>
                   <p>Mon-Fri 9am-6pm</p>
                 </div>
@@ -76,7 +76,7 @@ const Contact = () => {
 
               <div>
                 <h3 className="text-[20px] font-semibold">Message Us</h3>
-                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[16px]">
+                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[12px]">
                   <p>info@truenorthglobalsolution.com</p>
                   <p>We reply within 24hrs</p>
                 </div>
@@ -110,7 +110,7 @@ const Contact = () => {
 
               <div>
                 <h3 className="text-[20px] font-semibold">Office</h3>
-                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[16px]">
+                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[12px]">
                   <p>
                     123 Global Plaza, International
                     <br className="md:hidden" />
@@ -147,7 +147,7 @@ const Contact = () => {
 
               <div>
                 <h3 className="text-[20px] font-semibold">Business Hours</h3>
-                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[16px]">
+                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[12px]">
                   <p>Mon - Fri 10:00 AM - 3:00 PM</p>
                   <p>Weekend support available</p>
                 </div>

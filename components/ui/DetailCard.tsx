@@ -21,7 +21,7 @@ const DetailCard = ({
 }: DetailCardProps) => {
   return (
     <div
-      className=" w-auto p-[5px] 
+      className=" w-full p-[5px] 
      bg-white
      rounded-lg text-left h-fit"
       data-aos="fade-up"

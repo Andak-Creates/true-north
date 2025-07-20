@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-[80%] md:w-[85%] mx-auto my-[100px]
+      className="w-[85%] md:w-[85%] mx-auto my-[100px]
     flex flex-col md:flex-row items-center gap-4"
     >
       <div
@@ -69,7 +69,7 @@ const About = () => {
       </div>
 
       {/* right */}
-      <div className="flex w-full md:w-[50%] h-fit  mx-auto relative">
+      <div className="flex w-full md:w-[50%] h-fit  mx-auto relative border">
         {/* background */}
         <div
           className="absolute w-[90%] h-[90%] top-1/2 rounded-full 
@@ -79,12 +79,12 @@ const About = () => {
 
         <div className="grid grid-cols-2 gap-4 w-[100%] mx-auto">
           <DetailCard
-            style="p-[20px]"
+            style="p-[20px] w-auto"
             iconStyle="w-[35px]"
             fontStyle="text-[30px] font-bold"
             detailIcon="/assets/icons/clients.png"
             title="3+"
-            descStyle="text-[16px]"
+            descStyle="text-[15px]"
             desc="Clients Served"
           />
 
@@ -94,7 +94,7 @@ const About = () => {
             fontStyle="text-[30px] font-bold"
             detailIcon="/assets/icons/achievement.png"
             title="4+"
-            descStyle="text-[16px]"
+            descStyle="text-[15px]"
             desc="Projects Completed"
           />
 
@@ -104,17 +104,17 @@ const About = () => {
             fontStyle="text-[30px] font-bold"
             detailIcon="/assets/icons/success.png"
             title="99%"
-            descStyle="text-[16px]"
+            descStyle="text-[15px]"
             desc="Success Rate"
           />
 
           <DetailCard
-            style="p-[20px]"
+            style="p-[20px] w-"
             iconStyle="w-[35px]"
             fontStyle="text-[30px] font-bold"
             detailIcon="/assets/icons/supportRate.png"
             title="24/7"
-            descStyle="text-[16px]"
+            descStyle="text-[15px]"
             desc="Clients Served"
           />
         </div>

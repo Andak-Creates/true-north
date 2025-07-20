@@ -82,7 +82,7 @@ const ContactForm = () => {
         </div>
       </div>
 
-      <button className="gradiantButton w-[300px] mx-auto mt-[10px]">
+      <button className="gradiantButton w-auto mx-auto mt-[10px]">
         Send Message
       </button>
     </form>
