@@ -69,7 +69,7 @@ const About = () => {
       </div>
 
       {/* right */}
-      <div className="flex w-full md:w-[50%] h-fit  mx-auto relative border">
+      <div className="flex w-full md:w-[50%] h-fit  mx-auto relative">
         {/* background */}
         <div
           className="absolute w-[90%] h-[90%] top-1/2 rounded-full 
