@@ -8,7 +8,7 @@ const Contact = () => {
       <section
         id="contact"
         className="w-full md:w-[90%] md:mx-auto
-     flex flex-col lg:flex-row items-end  gap-[80px] p-[20px]"
+     flex flex-col lg:flex-row items-end  gap-[80px] p-[40px]"
       >
         {/* Left */}
         <div className="w-full" data-aos="fade-up">
@@ -45,8 +45,8 @@ const Contact = () => {
               </div>
 
               <div>
-                <h3 className="text-[18px]">Call Us!</h3>
-                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[10px] ">
+                <h3 className="text-[18px] font-semibold">Call Us!</h3>
+                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[16px] ">
                   <p>+1 (555) 123-4567</p>
                   <p>Mon-Fri 9am-6pm</p>
                 </div>
@@ -75,8 +75,8 @@ const Contact = () => {
               </div>
 
               <div>
-                <h3 className="text-[20px]">Message Us</h3>
-                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[10px]">
+                <h3 className="text-[20px] font-semibold">Message Us</h3>
+                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[16px]">
                   <p>info@truenorthglobalsolution.com</p>
                   <p>We reply within 24hrs</p>
                 </div>
@@ -109,8 +109,8 @@ const Contact = () => {
               </div>
 
               <div>
-                <h3 className="text-[20px]">Office</h3>
-                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[10px]">
+                <h3 className="text-[20px] font-semibold">Office</h3>
+                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[16px]">
                   <p>
                     123 Global Plaza, International
                     <br className="md:hidden" />
@@ -146,8 +146,8 @@ const Contact = () => {
               </div>
 
               <div>
-                <h3 className="text-[20px]">Business Hours</h3>
-                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[10px]">
+                <h3 className="text-[20px] font-semibold">Business Hours</h3>
+                <div className="flex flex-col md:flex-row gap-1 md:gap-4 text-[16px]">
                   <p>Mon - Fri 10:00 AM - 3:00 PM</p>
                   <p>Weekend support available</p>
                 </div>
@@ -174,37 +174,42 @@ const Contact = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-5">
           <DetailCard
-            iconStyle="w-[30px]"
+            iconStyle="w-[35px]"
             style="p-[10px]"
             detailIcon="/assets/icons/consult.png"
+            descStyle="text-[14px] fadedText"
             desc="Free initial consultation"
           />
 
           <DetailCard
-            iconStyle="w-[30px]"
+            iconStyle="w-[35px]"
             style="p-[10px]"
             detailIcon="/assets/icons/priceTag.png"
+            descStyle="text-[14px] fadedText"
             desc="Transparent pricing"
           />
 
           <DetailCard
-            iconStyle="w-[30px]"
+            iconStyle="w-[35px]"
             style="p-[10px]"
             detailIcon="/assets/icons/geomap.png"
+            descStyle="text-[14px] fadedText"
             desc="Global expertise, local service"
           />
 
           <DetailCard
-            iconStyle="w-[30px]"
+            iconStyle="w-[35px]"
             style="p-[10px]"
             detailIcon="/assets/icons/supportRate.png"
+            descStyle="text-[14px] fadedText"
             desc="Ongoing support & maintenance"
           />
 
           <DetailCard
-            iconStyle="w-[30px]"
+            iconStyle="w-[35px]"
             style="p-[10px]"
             detailIcon="/assets/icons/achievement.png"
+            descStyle="text-[14px] fadedText"
             desc="Proven track record"
           />
         </div>

@@ -30,7 +30,7 @@ const TestimonialCard = ({
       >
         <div className="flex flex-col gap-[10px]">
           <h3 className="text-[16px] font-bold">Incredibly useful product</h3>
-          <p className="text-[13px] fadedText">{desc}</p>
+          <p className="text-[16px] fadedText">{desc}</p>
         </div>
 
         <div className="flex flex-row justify-between">

@@ -5,7 +5,7 @@ const ContactForm = () => {
     <form className="border-2 w-full border-[#E9EBF1] flex flex-col p-4 rounded-lg shadow-md">
       <h2
         className="border rounded-full bg-gradient-to-b from-[#9580E7]
-   to-[#2563EB] text-transparent bg-clip-text text-[28px]"
+   to-[#2563EB] text-transparent bg-clip-text text-[28px] mb-[20px]"
       >
         Send Us a Message
       </h2>

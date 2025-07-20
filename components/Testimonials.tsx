@@ -18,7 +18,7 @@ const Testimonials = () => {
       />
 
       {/* content */}
-      <div className="w-[80%] lg:w-[40%] text-center px-[40px]">
+      <div className="w-[90%] lg:w-[40%] text-center px-[40px]">
         <p>Testimonials</p>
         <h1 className="text-[30px] lg:text-[40px] ">
           Feedbacks on our Services and Solutions

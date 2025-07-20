@@ -33,7 +33,7 @@ const HeroSection = () => {
         </div>
 
         <div className="mt-[20px] md:mt-[20px] mx-auto text-center w-[80%] md:w-[720px]">
-          <p className="text-[12px] md:text-[14px] lg:text-[16px]">
+          <p className="text-[16px] md:text-[18px]">
             We specialize in comprehensive IT services including software
             development, system design, platform development, applications
             development, and IT support solutions tailored to your business
@@ -43,7 +43,7 @@ const HeroSection = () => {
           {/* view our work & Get started Buttons */}
           <div className="flex gap-[15px] justify-center items-center mt-[20px] md:mt-[25px]">
             <button
-              className="border-[1px] text-[12px] md:text-[16px]
+              className="border-[1px] text-[16px]
                border-[#E9EBF1] px-[15px] py-[10px] 
    rounded-[50px] shadow-md bg-white"
             >

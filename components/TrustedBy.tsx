@@ -9,7 +9,7 @@ const TrustedBy = () => {
     text-center gap-[20px]"
     >
       <h2 className="text-[20px] md:text-[25px] mt-[60px] mb-[20px] ">
-        The world`&apos;`s best companies trust TrueNorth.
+        The world&apos;s best companies trust TrueNorth.
       </h2>
 
       {/* Partners Logos? */}
@@ -44,7 +44,7 @@ const TrustedBy = () => {
       </div>
 
       <p
-        className="w-[95%] md:w-[75%] text-[14px] md:text-[16px] mx-auto mt-[20px] text-[#363D4F]"
+        className="w-[95%] md:w-[75%] text-[16px]  mx-auto mt-[20px] text-[#363D4F]"
         data-aos="fade-up"
       >
         Helps drive business scale by developing needed enterprise IT solutions

@@ -16,7 +16,7 @@ const Footer = () => {
             <h1 className="font-bold text-[25px]">TrueNorth</h1>
           </Link>
 
-          <p className="fadedText text-[12px]">
+          <p className="fadedText text-[16px]">
             We are a leading global IT services company specializing in
             innovative solutions that drive business growth worldwide. From
             software development to comprehensive IT support, we deliver
@@ -26,11 +26,11 @@ const Footer = () => {
 
         {/* services */}
         <div className="w-fit">
-          <h3 className="text-[15px] text-[#979FB4] mb-[15px] font-semibold">
+          <h3 className="text-[16px] text-[#979FB4] mb-[15px] font-semibold">
             Services
           </h3>
 
-          <ul className="fadedText text-[14px] grid gap-1">
+          <ul className="fadedText text-[16px] grid gap-1">
             <li>
               <Link href={"#"} className="linkHover">
                 Software Development
@@ -76,10 +76,10 @@ const Footer = () => {
 
         {/* company */}
         <div className="w-fit">
-          <h3 className="text-[15px] text-[#979FB4] mb-[15px] font-semibold">
+          <h3 className="text-[16px] text-[#979FB4] mb-[15px] font-semibold">
             Company
           </h3>
-          <ul className="fadedText text-[14px] grid gap-1">
+          <ul className="fadedText text-[16px] grid gap-1">
             <li>
               <Link href={"#"} className="linkHover">
                 About Us
@@ -115,10 +115,10 @@ const Footer = () => {
 
         {/* Contacts */}
         <div className="w-full md:w-[250px]">
-          <h3 className="text-[15px] text-[#979FB4] mb-[15px] font-semibold">
+          <h3 className="text-[16px] text-[#979FB4] mb-[15px] font-semibold">
             Contacts
           </h3>
-          <ul className="fadedText text-[14px] grid gap-1">
+          <ul className="fadedText text-[16px] grid gap-1">
             <li>
               <Link href={"#"} className="linkHover flex items-center">
                 <img

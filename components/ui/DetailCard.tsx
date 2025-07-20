@@ -7,11 +7,13 @@ type DetailCardProps = {
   detailIcon: string;
   title?: string;
   desc: string;
+  descStyle?: string;
 };
 
 const DetailCard = ({
   style,
   iconStyle,
+  descStyle,
   detailIcon,
   title,
   fontStyle,
@@ -19,9 +21,9 @@ const DetailCard = ({
 }: DetailCardProps) => {
   return (
     <div
-      className="h-auto w-auto p-[5px] 
+      className=" w-auto p-[5px] 
      bg-white
-     rounded-lg text-left"
+     rounded-lg text-left h-fit"
       data-aos="fade-up"
     >
       <div
@@ -31,7 +33,7 @@ const DetailCard = ({
               `flex flex-col ${style} border-double border-[4px]
      border-[#E9EBF1] rounded-lg p-[5px]`
             : // Default style if no style prop is provided
-              `flex flex-col gap-[4px] w-[110px] md:w-[140px] p-[5px] border-[1px]
+              `flex flex-col gap-[4px] w-[130px] md:w-[150px] p-[5px] border-[1px]
      border-[#E9EBF1] rounded-lg`
         }
       >
@@ -40,14 +42,14 @@ const DetailCard = ({
           alt="icon"
           className={iconStyle ? `${iconStyle}` : "w-[16px] md:w-[30px]"}
         />
-        <h3
-          className={
-            fontStyle ? `${fontStyle}` : "font-bold text-[11px] md:text-[14px] "
-          }
-        >
+        <h3 className={fontStyle ? `${fontStyle}` : "font-bold text-[12px]  "}>
           {title}
         </h3>
-        <p className="text-[10px] md:text-[12px] text-[#363D4F]">{desc}</p>
+        <p
+          className={descStyle ? `${descStyle}` : "text-[12px] text-[#363D4F]"}
+        >
+          {desc}
+        </p>
       </div>
     </div>
   );
