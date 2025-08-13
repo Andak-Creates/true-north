@@ -4,8 +4,7 @@ import DetailCard from "./ui/DetailCard";
 
 const About = () => {
   return (
-    <section
-      id="about"
+    <div
       className="w-[85%] md:w-[85%] mx-auto my-[100px]
     flex flex-col md:flex-row items-center gap-4"
     >
@@ -119,7 +118,7 @@ const About = () => {
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

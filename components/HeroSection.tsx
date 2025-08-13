@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <main
       id="home"
-      className="h-[700px] md:h-[750px] w-full relative overflow-hidden
+      className="h-[750px] md:h-[750px] w-full relative overflow-hidden
     flex flex-col justify-end items-center "
     >
       {/* Background Image */}
